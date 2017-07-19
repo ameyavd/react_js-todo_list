@@ -1,0 +1,29 @@
+{
+  "name": "todo_list",
+  "version": "0.1.0",
+  "description": "React JS todo_list",
+  "main": "index.js",
+  "author": "ameya",
+  "private": true,
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "react-scripts": "1.0.10",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "scripts": {
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 1234 --history-api-fallback",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject"
+  }
+}
